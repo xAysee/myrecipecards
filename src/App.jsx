@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 // ─── Amount scaling helper ────────────────────────────────────────────────────
 function scaleAmount(amountStr, scale) {
@@ -1937,6 +1938,7 @@ ${m.steps}`}];
 
       {showSettings&&<SettingsModal settings={settings} onChange={updateSettings} onClose={()=>setShowSettings(false)} trash={trash} onRestore={restoreRecipe} T={T}/>}
       {showTwilio&&<TwilioModal onClose={()=>setShowTwilio(false)} T={T}/>}
+      <Analytics />
     </>
   );
 }
