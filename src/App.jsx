@@ -1353,7 +1353,7 @@ function MealPlanPage({ recipes, mealPlan, onMealPlanChange, settings, T }) {
         Drag a meal to copy it to another day &nbsp;·&nbsp; Hold <kbd style={{background:T.paper,border:`1px solid ${T.border}`,borderRadius:3,padding:"0 4px",fontSize:10}}>Alt</kbd> while dropping to move instead
       </p>
 
-      {/* Recipe picker overlay */}}
+      {/* Recipe picker overlay */}
       {pickerDay&&(
         <div style={{position:"fixed",inset:0,background:"rgba(0,0,0,.55)",zIndex:150,display:"flex",alignItems:"center",justifyContent:"center",padding:16}}
           onMouseDown={e=>{if(e.target===e.currentTarget){setPickerDay(null);setPickerSearch("");}}}>
