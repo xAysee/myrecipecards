@@ -1,5 +1,5 @@
 {
-  "name": "gathered",
+  "name": "myrecipecards",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
