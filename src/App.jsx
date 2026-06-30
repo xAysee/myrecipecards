@@ -572,7 +572,7 @@ function getTheme(dark) {
   return dark ? {
     bg:"#11171A", surface:"#1A2226", paper:"#202A2E", border:"#34434A",
     terra:"#5FC9C2", terraBtn:"#157570", terraLight:"#1C3635", ink:"#EDF5F4", muted:"#A8BEBD",
-    sage:"#B8D08A", sageLight:"#222B1C", white:"#1A2226", cream:"#11171A",
+    sage:"#222B1C", sageLight:"#B8D08A", white:"#FFFFFF", cream:"F7FAF9",
   } : {
     bg:"#F6FAFA", surface:"#FFFFFF", paper:"#E9F2F1", border:"#CFE3E1",
     terra:"#0E6B68", terraBtn:"#0E6B68", terraLight:"#D6ECEA", ink:"#1B2625", muted:"#5B7271",
